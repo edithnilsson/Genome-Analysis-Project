@@ -4,11 +4,10 @@
 #SBATCH -c 2
 #SBATCH -t 55:00:00
 #SBATCH -J Flye_Assembly
-#SBATCH --mem=96GB
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user edith.nilsson.0914@student.uu.se
-#SBATCH --output=/home/edni0914/Genome-Analysis-Project/output/02_genome_assembly/%x.%j.out
-#SBATCH --error=/home/edni0914/Genome-Analysis-Project/error/02_genome_assembly/%x.%j.err
+#SBATCH --output=/home/edni0914/Genome-Analysis-Project/output/02_genome_assembly%x.%j.out
+#SBATCH --error=/home/edni0914/Genome-Analysis-Project/error/02_genome_assembly%x.%j.err
 
 # Load modules
 module load Flye/2.9.6-GCC-13.3.0
