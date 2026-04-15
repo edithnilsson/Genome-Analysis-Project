@@ -3,7 +3,7 @@
 #SBATCH -p pelle
 #SBATCH -c 1
 #SBATCH -t 00:40:00
-#SBATCH -J FastQC
+#SBATCH -J FastQC_illumina_pre
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user edith.nilsson.0914@student.uu.se
 #SBATCH --output=/home/edni0914/Genome-Analysis-Project/output/%x.%j.out

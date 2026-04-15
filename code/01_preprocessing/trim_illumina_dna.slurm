@@ -8,6 +8,7 @@
 #SBATCH --mail-user edith.nilsson.0914@student.uu.se
 #SBATCH --output=/home/edni0914/Genome-Analysis-Project/output/01_preprocessing/%x.%j.out
 #SBATCH --error=/home/edni0914/Genome-Analysis-Project/error/01_preprocessing/%x.%j.err
+
 #Load modules
 module load Trimmomatic/0.39-Java-17
 
