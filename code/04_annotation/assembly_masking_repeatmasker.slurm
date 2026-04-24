@@ -2,7 +2,7 @@
 #SBATCH -A UPPMAX2026-1-61
 #SBATCH -p pelle
 #SBATCH -c 2
-#SBATCH -t 00:10:00
+#SBATCH -t 10:00:00
 #SBATCH -J RepeatMasker
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user edith.nilsson.0914@student.uu.se
