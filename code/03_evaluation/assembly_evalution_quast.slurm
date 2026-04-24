@@ -2,8 +2,8 @@
 #SBATCH -A UPPMAX2026-1-61
 #SBATCH -p pelle
 #SBATCH -c 1
-#SBATCH -t 01:00:00
-#SBATCH -J busco_evaluation 
+#SBATCH -t 00:10:00
+#SBATCH -J quast_evaluation 
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user edith.nilsson.0914@student.uu.se
 #SBATCH --output=/home/edni0914/Genome-Analysis-Project/output/03_evaluation/%x.%j.out
