@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH -A UPPMAX2026-1-61
 #SBATCH -p pelle
-#SBATCH -c 1
-#SBATCH -t 01:00:00
+#SBATCH -c 4
+#SBATCH -t 00:30:00
 #SBATCH -J Trimmomatic_rna_control2
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=edith.nilsson.0914@student.uu.se
@@ -12,9 +12,10 @@
 #Load modules
 module load Trimmomatic/0.39-Java-17
 
+
 #commands
 
-trimmomatic PE -threads 2 \
+trimmomatic PE -threads 4 \
 /home/edni0914/Genome-Analysis-Project/transcriptomic_data/Control_2_f1.fq.gz \
 /home/edni0914/Genome-Analysis-Project/transcriptomic_data/Control_2_r2.fq.gz \
 /home/edni0914/Genome-Analysis-Project/results/01_preprocessing/rna/Trimming/control_2_f1_trimmed_paired.fastq.gz \
